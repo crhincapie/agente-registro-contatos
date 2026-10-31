@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,7 +13,7 @@
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "demo": "tsx --tsconfig tsconfig.app.json demo.ts",
-    "test": "tsx --tsconfig tsconfig.app.json --test tests/reto02.test.ts"
+    "test": "tsx --tsconfig tsconfig.app.json --test tests/reto02.test.ts tests/agente.test.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",

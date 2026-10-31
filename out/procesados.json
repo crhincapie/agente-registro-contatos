@@ -2,31 +2,31 @@
   "msg-001": {
     "estado": "registrado",
     "id_contrato": "CT-2026-015",
-    "ts": "2026-10-31T22:12:57.720Z"
+    "ts": "2026-10-31T22:35:08.244Z"
   },
   "msg-002": {
     "estado": "registrado",
     "id_contrato": "CT-2026-016",
-    "ts": "2026-10-31T22:12:57.727Z"
+    "ts": "2026-10-31T22:35:08.250Z"
   },
   "msg-003": {
     "estado": "actualizado",
     "id_contrato": "CT-2026-011",
-    "ts": "2026-10-31T22:12:57.732Z"
+    "ts": "2026-10-31T22:35:08.253Z"
   },
   "msg-004": {
     "estado": "duplicado",
     "id_contrato": "CT-2026-012",
-    "ts": "2026-10-31T22:12:57.736Z"
+    "ts": "2026-10-31T22:35:08.257Z"
   },
   "msg-005": {
     "estado": "rechazado",
     "id_contrato": null,
-    "ts": "2026-10-31T22:12:57.737Z"
+    "ts": "2026-10-31T22:35:08.258Z"
   },
   "msg-006": {
     "estado": "registrado",
     "id_contrato": "CM-2026-03",
-    "ts": "2026-10-31T22:12:57.742Z"
+    "ts": "2026-10-31T22:35:08.263Z"
   }
 }
