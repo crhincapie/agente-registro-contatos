@@ -26,11 +26,11 @@ export async function manejarApi(peticion: Request): Promise<Response> {
     const url = new URL(peticion.url);
     const ruta = url.pathname.replace(/\/+$/, '');
 
-    if (ruta === '/api/health' && peticion.method === 'GET') return salud();
-    if (ruta === '/api/chat' && peticion.method === 'POST') return chat(peticion);
-    if (ruta === '/api/confirmar' && peticion.method === 'POST') return confirmar(peticion);
+    if (ruta === '/api/health' && peticion.method === 'GET') return await salud();
+    if (ruta === '/api/chat' && peticion.method === 'POST') return await chat(peticion);
+    if (ruta === '/api/confirmar' && peticion.method === 'POST') return await confirmar(peticion);
     const coincidencia = /^\/api\/sessions\/([0-9a-f-]{36})$/i.exec(ruta);
-    if (coincidencia && peticion.method === 'GET') return sesion(coincidencia[1]);
+    if (coincidencia && peticion.method === 'GET') return await sesion(coincidencia[1]);
 
     return json({ error: 'Ruta no encontrada' }, 404);
   } catch (error) {
