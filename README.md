@@ -22,7 +22,8 @@ Completa `.env` en el servidor (nunca en el navegador):
 | `ANTHROPIC_API_KEY` | Sí, para el chat | Clave del modelo de lenguaje. |
 | `LLM_MODEL` | No | Modelo a usar. Por defecto `claude-sonnet-4-5`. |
 | `SUPABASE_URL` | Sí, para la nube | URL del proyecto de Supabase. |
-| `SUPABASE_SERVICE_ROLE_KEY` | Sí, para la nube | Clave de servicio, solo del lado del servidor. |
+| `SUPABASE_SECRET_KEY` | Sí, para la nube | Clave secreta de Supabase (`sb_secret_...`), solo del lado del servidor. Tiene prioridad. |
+| `SUPABASE_SERVICE_ROLE_KEY` | No | Clave `service_role` heredada, solo como respaldo si no existe `SUPABASE_SECRET_KEY`. |
 | `FECHA_REFERENCIA` | No | Fecha `AAAA-MM-DD` para las alertas. |
 
 ## Ejecución local
