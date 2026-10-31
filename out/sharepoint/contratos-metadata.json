@@ -1,0 +1,228 @@
+{
+  "CT-2026-015": {
+    "id_contrato": "CT-2026-015",
+    "valor_indeterminado": false,
+    "condicion_poliza": null,
+    "tratamiento_tributario": "incluido",
+    "tipo_dato_por_campo": {
+      "id_contrato": "EXTRAIDO",
+      "cliente": "EXTRAIDO",
+      "nit_cliente": "EXTRAIDO",
+      "pais": "DERIVADO",
+      "objeto": "EXTRAIDO",
+      "fecha_inicio": "EXTRAIDO",
+      "requiere_poliza": "EXTRAIDO",
+      "tipo_poliza": "EXTRAIDO",
+      "valor": "EXTRAIDO",
+      "moneda": "EXTRAIDO",
+      "fecha_fin": "EXTRAIDO"
+    },
+    "confianza_por_campo": {
+      "id_contrato": 0.98,
+      "cliente": 0.98,
+      "nit_cliente": 0.95,
+      "pais": 0.9,
+      "objeto": 0.92,
+      "fecha_inicio": 0.98,
+      "requiere_poliza": 0.95,
+      "tipo_poliza": 0.98,
+      "valor": 0.98,
+      "moneda": 0.98,
+      "fecha_fin": 0.98
+    },
+    "fuentes_por_campo": {
+      "id_contrato": "contrato.txt:titulo",
+      "cliente": "contrato.txt:encabezado",
+      "nit_cliente": "contrato.txt:encabezado",
+      "pais": "contrato.txt:encabezado",
+      "objeto": "contrato.txt:PRIMERA",
+      "fecha_inicio": "contrato.txt:TERCERA",
+      "requiere_poliza": "contrato.txt:SEXTA",
+      "tipo_poliza": "contrato.txt:SEXTA",
+      "valor": "contrato.txt:SEGUNDA",
+      "moneda": "contrato.txt:SEGUNDA",
+      "fecha_fin": "contrato.txt:TERCERA"
+    },
+    "convenciones": [],
+    "observaciones": [
+      "El valor incluye impuestos, según el contrato."
+    ],
+    "remitente_email": "lgomez@periferia-ficticia.com",
+    "remitente_no_registrado": false,
+    "estado_poliza_motivo": "El contrato exige póliza; no hay evidencia de su constitución.",
+    "versiones_documentales": [
+      {
+        "version": 1,
+        "tipo": "contrato",
+        "ruta": "Contratos/2026/industrias-delta/CT-2026-015.txt",
+        "mensaje_id": "msg-001",
+        "fecha": "2026-09-03"
+      }
+    ]
+  },
+  "CT-2026-016": {
+    "id_contrato": "CT-2026-016",
+    "valor_indeterminado": false,
+    "condicion_poliza": null,
+    "tratamiento_tributario": "mas_impuestos",
+    "tipo_dato_por_campo": {
+      "id_contrato": "EXTRAIDO",
+      "cliente": "EXTRAIDO",
+      "nit_cliente": "EXTRAIDO",
+      "pais": "DERIVADO",
+      "objeto": "EXTRAIDO",
+      "fecha_inicio": "EXTRAIDO",
+      "requiere_poliza": "DERIVADO",
+      "tipo_poliza": "PENDIENTE",
+      "valor": "EXTRAIDO",
+      "moneda": "EXTRAIDO",
+      "fecha_fin": "EXTRAIDO"
+    },
+    "confianza_por_campo": {
+      "id_contrato": 0.98,
+      "cliente": 0.98,
+      "nit_cliente": 0.95,
+      "pais": 0.9,
+      "objeto": 0.92,
+      "fecha_inicio": 0.98,
+      "requiere_poliza": 0.85,
+      "tipo_poliza": 0,
+      "valor": 0.98,
+      "moneda": 0.98,
+      "fecha_fin": 0.98
+    },
+    "fuentes_por_campo": {
+      "id_contrato": "contrato.txt:titulo",
+      "cliente": "contrato.txt:encabezado",
+      "nit_cliente": "contrato.txt:encabezado",
+      "pais": "contrato.txt:encabezado",
+      "objeto": "contrato.txt:PRIMERA",
+      "fecha_inicio": "contrato.txt:TERCERA",
+      "requiere_poliza": "contrato.txt:sin_clausula",
+      "tipo_poliza": "contrato.txt:sin_clausula",
+      "valor": "contrato.txt:SEGUNDA",
+      "moneda": "contrato.txt:SEGUNDA",
+      "fecha_fin": "contrato.txt:TERCERA"
+    },
+    "convenciones": [],
+    "observaciones": [
+      "Los impuestos de ley se suman al valor, según el contrato."
+    ],
+    "remitente_email": "cruiz@periferia-ficticia.com",
+    "remitente_no_registrado": false,
+    "estado_poliza_motivo": null,
+    "versiones_documentales": [
+      {
+        "version": 1,
+        "tipo": "contrato",
+        "ruta": "Contratos/2026/corporacion-andina-de-servicios/CT-2026-016.txt",
+        "mensaje_id": "msg-002",
+        "fecha": "2026-09-03"
+      }
+    ]
+  },
+  "CT-2026-011": {
+    "id_contrato": "CT-2026-011",
+    "valor_indeterminado": false,
+    "condicion_poliza": null,
+    "tratamiento_tributario": "no_especificado",
+    "tipo_dato_por_campo": {},
+    "confianza_por_campo": {},
+    "fuentes_por_campo": {},
+    "convenciones": [],
+    "observaciones": [
+      "Otrosí 1 archivado como documento independiente; el contrato original no se modifica."
+    ],
+    "remitente_email": null,
+    "remitente_no_registrado": false,
+    "estado_poliza_motivo": "El otrosí amplía plazo y valor; la ampliación de garantías no tiene evidencia documental y queda pendiente de verificación.",
+    "versiones_documentales": [
+      {
+        "version": 1,
+        "tipo": "contrato_original",
+        "ruta": "Contratos/2026/minera-los-andes/CT-2026-011.pdf",
+        "mensaje_id": null,
+        "fecha": "2026-05-05"
+      },
+      {
+        "version": 2,
+        "tipo": "otrosi",
+        "ruta": "Contratos/2026/minera-los-andes/CT-2026-011_otrosi-01.txt",
+        "mensaje_id": "msg-003",
+        "fecha": "2026-09-03"
+      }
+    ]
+  },
+  "CM-2026-03": {
+    "id_contrato": "CM-2026-03",
+    "valor_indeterminado": true,
+    "condicion_poliza": {
+      "texto_umbral": "los cien millones de pesos",
+      "umbral": 100000000,
+      "moneda_umbral": "COP",
+      "porcentaje": 10,
+      "base": "orden de servicio"
+    },
+    "tratamiento_tributario": "no_especificado",
+    "tipo_dato_por_campo": {
+      "id_contrato": "EXTRAIDO",
+      "cliente": "EXTRAIDO",
+      "nit_cliente": "EXTRAIDO",
+      "pais": "DERIVADO",
+      "objeto": "EXTRAIDO",
+      "fecha_inicio": "PENDIENTE",
+      "requiere_poliza": "EXTRAIDO",
+      "tipo_poliza": "EXTRAIDO",
+      "valor": "PENDIENTE",
+      "moneda": "PENDIENTE",
+      "fecha_fin": "CONVENCION"
+    },
+    "confianza_por_campo": {
+      "id_contrato": 0.98,
+      "cliente": 0.98,
+      "nit_cliente": 0.95,
+      "pais": 0.9,
+      "objeto": 0.92,
+      "fecha_inicio": 0,
+      "requiere_poliza": 0.95,
+      "tipo_poliza": 0.98,
+      "valor": 0,
+      "moneda": 0,
+      "fecha_fin": 0
+    },
+    "fuentes_por_campo": {
+      "id_contrato": "contrato.txt:titulo",
+      "cliente": "contrato.txt:encabezado",
+      "nit_cliente": "contrato.txt:encabezado",
+      "pais": "contrato.txt:encabezado",
+      "objeto": "contrato.txt:PRIMERA",
+      "fecha_inicio": "contrato.txt:TERCERA",
+      "requiere_poliza": "contrato.txt:CUARTA",
+      "tipo_poliza": "contrato.txt:CUARTA",
+      "valor": "contrato.txt:SEGUNDA",
+      "moneda": "contrato.txt:SEGUNDA",
+      "fecha_fin": "convencion-demo"
+    },
+    "convenciones": [
+      "fecha_fin=2027-08-31 (CONVENCION)"
+    ],
+    "observaciones": [
+      "El tratamiento tributario no está especificado en el documento.",
+      "Contrato marco sin valor determinado; el valor de cada orden se fijará en la orden de servicio.",
+      "La fecha de terminación 2027-08-31 es una convención de demostración. En producción debe verificarse la fecha exacta de firma.",
+      "El remitente jperez@periferia-ficticia.com no está en el directorio de comerciales; se registra sin asignación comercial."
+    ],
+    "remitente_email": "jperez@periferia-ficticia.com",
+    "remitente_no_registrado": true,
+    "estado_poliza_motivo": "Obligación condicional: póliza de cumplimiento del 10% para cada orden de servicio cuyo valor supere los cien millones de pesos (COP 100000000). Verificar si alguna orden activa la obligación.",
+    "versiones_documentales": [
+      {
+        "version": 1,
+        "tipo": "contrato",
+        "ruta": "Contratos/2026/distribuidora-caribe/CM-2026-03.txt",
+        "mensaje_id": "msg-006",
+        "fecha": "2026-09-03"
+      }
+    ]
+  }
+}
